@@ -7,7 +7,7 @@
 		<Burger />
 	</div>
 </div>
-<div class=" bg-color2 pt-12">
+<div class=" h-screen bg-color2 pt-12">
 	<div class="grid grid-rows-1 mt-2">
 		<h2 class="text-white text-center text-4xl font-semibold pb-8">Tecnologias</h2>
 		<div class="mx-auto">
