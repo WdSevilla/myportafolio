@@ -1,5 +1,8 @@
 <script>
 	import Burger from '../nav/+page.svelte';
+	function curri(){
+		window.open("https://drive.google.com/file/d/1ekc354siO8sjrHZDnb3RAhN3qdjs0RgI/view?usp=sharing");
+	}
 </script>
 
 <div class=" lg:hidden">
@@ -14,7 +17,7 @@
 			<div>
 				<p class="text-white">
 					Soy Wilfredo Sevilla estudiante y desarrollador frontend Jr.<br/>
-					Apasioando de la tecnologia y siempre dispuesto a afrontar nuevos retos para mejorar personal
+					Apasionado por la tecnologia y siempre dispuesto a afrontar nuevos retos para mejorar personal
 					y profesionalmente.
 				</p>
 			</div>
@@ -25,7 +28,7 @@
 					<li>Edad: 23</li>
 					<li>De: La Lucha, La Tigra, San Carlos, Alajuela, Costa Rica</li>
 				</ul>
-				<button class="bg-white rounded-lg p-1 mx-auto flex mt-4 mb-4 font-semibold"
+				<button on:click={curri} class="bg-white rounded-lg p-1 mx-auto flex mt-4 mb-4 font-semibold"
 					>Descargar CV</button
 				>
 			</div>

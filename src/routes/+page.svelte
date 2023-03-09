@@ -25,15 +25,15 @@
 			<div class="pt-6 pb-6">
 				<img
 					class="flex justify-center mx-auto w-24 h-24 "
-					src="https://i.ibb.co/crCNnzG/user.png"
+					src="https://i.ibb.co/Hd27Vmk/BK.png"
 					alt="profile"
 				/>
 			</div>
 			<div class="flex justify-center">
-				<p class="text-white">Wilfredo Sevilla</p>
+				<p class="text-white text-xl">Wilfredo Sevilla</p>
 			</div>
 			<div class="flex justify-center pt-16">
-				<div class="grid grid-cols-1">
+				<div class="grid grid-cols-1 text-xl space-y-4">
 					<button on:click={() => newPaginaActual('inicio')} class="text-white">Inicio</button>
 					<button on:click={() => newPaginaActual('about')} class="text-white">Sobre Mi</button>
 					<button on:click={() => newPaginaActual('tecnologias')} class="text-white"

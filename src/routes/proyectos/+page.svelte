@@ -12,7 +12,7 @@
 		<Burger />
 	</div>
 </div>
-<div class=" bg-color2 pt-12">
+<div class=" bg-color2 pt-12 lg:h-screen">
 	<div class="lg:grid lg:grid-rows-1 lg:mt-2 flex flex-col ">
 		<h2 class="text-white text-center text-4xl font-semibold pb-8 mt-4">Proyectos</h2>
 		<div class="lg:grid lg:grid-cols-2 lg:gap-20
@@ -29,13 +29,6 @@
 				<button class="bg-blue-500 pl-1 pr-1 font-semibold text-white rounded-md " on:click={() => getModal2().open()}> Ver mas... </button>
 				<Modal2>
 				</Modal2>
-			</div>
-		</div>
-		<hr class="divide-y divide-solid color-white" />
-		<div>
-			<h2 class="text-white text-center text-4xl font-semibold pb-8 mt-4">Contacto</h2>
-			<div class="grid place-items-center">
-				<Contacto />
 			</div>
 		</div>
 	</div>

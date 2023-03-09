@@ -7,7 +7,7 @@
 		<Burger />
 	</div>
 </div>
-<div class=" h-screen bg-color2 pt-12">
+<div class=" lg:h-screen bg-color2 pt-12 ">
 	<div class="grid grid-rows-1 mt-2">
 		<h2 class="text-white text-center text-4xl font-semibold pb-8">Tecnologias</h2>
 		<div class="mx-auto">
@@ -53,7 +53,7 @@
 		<hr class="divide-y divide-solid color-white" />
 		<div>
 			<h2 class="text-white text-center text-4xl font-semibold pb-8 mt-4">Aprendiendo</h2>
-			<img class="flex mx-auto" src="https://i.ibb.co/6twRwD5/Group-2.png" alt="" />
+			<img class="flex mx-auto mb-2" src="https://i.ibb.co/6twRwD5/Group-2.png" alt="" />
 		</div>
 	</div>
 </div>

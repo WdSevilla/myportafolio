@@ -15,5 +15,5 @@
 	</form>
 </div>
 <div class="pb-4">
-	<button class="grid place-items-center w-auto rounded-lg bg-blue-500 pl-4 pr-4">Enviar</button>
+	<button class="grid place-items-center w-auto rounded-lg bg-blue-500 pl-4 pr-4 text-white">Enviar</button>
 </div>
