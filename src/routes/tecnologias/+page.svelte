@@ -7,7 +7,7 @@
 		<Burger />
 	</div>
 </div>
-<div class=" lg:h-screen bg-color2 pt-12 ">
+<div class=" lg:h-screen bg-color2 pt-12 h-screen">
 	<div class="grid grid-rows-1 mt-2">
 		<h2 class="text-white text-center text-4xl font-semibold pb-8">Tecnologias</h2>
 		<div class="mx-auto">
@@ -52,8 +52,8 @@
 		</div>
 		<hr class="divide-y divide-solid color-white" />
 		<div>
-			<h2 class="text-white text-center text-4xl font-semibold pb-8 mt-4">Aprendiendo</h2>
-			<img class="flex mx-auto mb-2" src="https://i.ibb.co/6twRwD5/Group-2.png" alt="" />
+			<h2 class="text-white text-center text-4xl font-semibold pb-8 mt-4">Otras Tecnologias</h2>
+			<img class="flex mx-auto mb-2" src="https://i.ibb.co/DVpc6XJ/IMG-DB-AZURE.png" alt="" />
 		</div>
 	</div>
 </div>

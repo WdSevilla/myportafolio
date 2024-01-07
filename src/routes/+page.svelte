@@ -25,7 +25,7 @@
 			<div class="pt-6 pb-6">
 				<img
 					class="flex justify-center mx-auto w-24 h-24 "
-					src="https://i.ibb.co/Hd27Vmk/BK.png"
+					src="https://i.ibb.co/MZdTqgS/BK2.png"
 					alt="profile"
 				/>
 			</div>

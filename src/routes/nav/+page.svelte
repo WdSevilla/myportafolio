@@ -34,7 +34,7 @@
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div class="absolute inset-0  bg-opacity-75 transition-opacity h-18" on:click={toggleMenu}>
 			<div class="pb-48  ">
-				<div class="flex flex-col space-y-2 text-white text-lg p-2">
+				<div class="flex flex-col space-y-2 text-white text-lg p-2 ">
 					<nav>
 					<a href="/">Inicio</a>
 					<hr class="divide-y divide-blue-200" />
