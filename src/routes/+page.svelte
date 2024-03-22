@@ -34,12 +34,12 @@
 			</div>
 			<div class="flex justify-center pt-16">
 				<div class="grid grid-cols-1 text-xl space-y-4">
-					<button on:click={() => newPaginaActual('inicio')} class="text-white">Inicio</button>
-					<button on:click={() => newPaginaActual('about')} class="text-white">Sobre Mi</button>
+					<button on:click={() => newPaginaActual('inicio')} class="text-white">Home</button>
+					<button on:click={() => newPaginaActual('about')} class="text-white">About Me</button>
 					<button on:click={() => newPaginaActual('tecnologias')} class="text-white"
-						>Tecnologias</button
+						>Technologies</button
 					>
-					<button on:click={() => newPaginaActual('proyectos')} class="text-white">Proyectos</button
+					<button on:click={() => newPaginaActual('proyectos')} class="text-white">Works</button
 					>
 				</div>
 			</div>

@@ -1,6 +1,6 @@
 <div class="">
 	<form action="">
-		<div class="lg:w-[52rem] w-80">
+		<div class="lg:w-[52rem] w-80 ">
 			<div class="mb-6">
 				<input class="w-full rounded-lg h-8 p-2" type="text" placeholder="Nombre" />
 			</div>
