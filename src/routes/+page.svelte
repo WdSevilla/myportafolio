@@ -39,8 +39,7 @@
 					<button on:click={() => newPaginaActual('tecnologias')} class="text-white"
 						>Technologies</button
 					>
-					<button on:click={() => newPaginaActual('proyectos')} class="text-white">Works</button
-					>
+					<button on:click={() => newPaginaActual('proyectos')} class="text-white">Works</button>
 				</div>
 			</div>
 			<!-- <div>
