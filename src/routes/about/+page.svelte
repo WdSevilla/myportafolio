@@ -1,6 +1,5 @@
 <script>
 	import Burger from '../nav/+page.svelte';
-
 </script>
 
 <div class=" lg:hidden">
@@ -10,9 +9,9 @@
 </div>
 <div class=" h-screen bg-color2 pt-12">
 	<div class="grid grid-rows-1">
-		<h2 class="text-white text-center text-4xl font-semibold pb-8">About</h2>
-		<div class="grid grid-cols-1 justify-items-center pl-4 space-y-4">
+		<div class="grid grid-cols-2 justify-items-center pl-4 space-y-4">
 			<div>
+				<h2 class="text-white text-center text-4xl font-semibold pb-8">About</h2>
 				<p class="text-white">
 					With over two years of experience in the field of Information Technology, I have focused
 					on technical support and Helpdesk, providing effective solutions to users' technological
@@ -24,22 +23,18 @@
 					and challenges.
 				</p>
 			</div>
-		</div>
-		<hr class="divide-y divide-solid color-white" />
-		<div class="pb-24">
-			<h2 class="text-white text-center text-4xl font-semibold pb-8 mt-4">Skills</h2>
-			<div class="grid grid-cols-1 justify-items-center ">
-				<div class="text-white">
-					<p>Problem-solving</p>
-					<p>Adaptability</p>
-					<p>Teamwork</p>
-					<p>Responsibility</p>
-					<p>Analytical Skills</p>
+			<div>
+				<h2 class="text-white text-center text-4xl font-semibold pb-8 mt-4">Skills</h2>
+				<div class="grid grid-cols-1 justify-items-center ">
+					<div class="text-white">
+						<p>Problem-solving</p>
+						<p>Adaptability</p>
+						<p>Teamwork</p>
+						<p>Responsibility</p>
+						<p>Analytical Skills</p>
+					</div>
 				</div>
 			</div>
 		</div>
-
 	</div>
-	
-
 </div>
