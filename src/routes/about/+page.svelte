@@ -7,9 +7,9 @@
 		<Burger />
 	</div>
 </div>
-<div class=" h-screen bg-color2 pt-12">
+<div class=" h-full bg-color2 pt-12">
 	<div class="grid grid-rows-1">
-		<div class="grid grid-cols-2 justify-items-center pl-4 space-y-4">
+		<div class="grid grid-cols-2 justify-items-center pl-4 space-y-4 mb-4">
 			<div>
 				<h2 class="text-white text-center text-4xl font-semibold pb-8">About</h2>
 				<p class="text-white">
