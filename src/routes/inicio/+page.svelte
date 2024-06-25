@@ -3,7 +3,7 @@
 
   let title = '';
   let subtitle = '';
-  const text = 'Bienvenido a mi sitio web';
+  const text = 'Bienvenido a mi portafolio';
   const text2 = 'Soy desarrollador web';
   let index = 0;
   let index2 = 0;
@@ -24,7 +24,7 @@
     if (index2 < text2.length) {
       subtitle += text2.charAt(index2);
       index2++;
-      setTimeout(typeEffect2, 100); // Ajusta el tiempo para cambiar la velocidad de la escritura
+      setTimeout(typeEffect2, 50); // Ajusta el tiempo para cambiar la velocidad de la escritura
     }
   }
 
