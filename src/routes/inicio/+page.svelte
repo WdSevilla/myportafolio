@@ -76,7 +76,7 @@
 
 <div class="bg-back bg-cover pt-[60%] lg:pt-[24%] h-screen">
   <div class="grid items-center justify-center">
-    <h1 id="typing-title" class="text-white text-7xl pb-6 {isTitleComplete ? 'complete' : ''}">{title}</h1>
-    <p id="typing-subtitle" class="text-white text-3xl {isTitleComplete ? 'cursor-blink' : ''}">{subtitle}</p>
+    <h1 id="typing-title" class="text-white text-xl pb-6 lg:text-7xl {isTitleComplete ? 'complete' : ''}">{title}</h1>
+    <p id="typing-subtitle" class="text-white text-lg lg:text-3xl text-center {isTitleComplete ? 'cursor-blink' : ''}">{subtitle}</p>
   </div>
 </div>
