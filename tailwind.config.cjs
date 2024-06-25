@@ -8,7 +8,7 @@ module.exports = {
         color2:'#393939',
       },
       backgroundImage: {
-       'back':"linear-gradient(to top left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),url(https://i.ibb.co/vZs61zD/bg-min.jpg)",
+       'back':"linear-gradient(to top left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),url(https://i.ibb.co/q1KG6KJ/bg-min.webp)",
        'down':"url(https://i.ibb.co/7nxW4MN/down.jpg)",
        'deg':"linear-gradient(to top , rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),url(https://i.ibb.co/7nxW4MN/down.jpg)",
        'insta':"url(https://i.ibb.co/pRKBNs9/insta.png)",
