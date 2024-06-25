@@ -22,10 +22,10 @@
 <div class="flex flex-col-2 ">
 	<div class="hidden sm:flex">
 		<div class=" bg-color1 w-48 ">
-			<div class="pt-6 pb-6">
+			<div class="pt-6 pb-6 ">
 				<img
-					class="flex justify-center mx-auto w-24 h-24 "
-					src="https://i.ibb.co/MZdTqgS/BK2.png"
+					class="flex justify-center mx-auto w-24 h-24 rounded-full"
+					src="https://avatars.githubusercontent.com/u/45079501?v=4"
 					alt="profile"
 				/>
 			</div>
