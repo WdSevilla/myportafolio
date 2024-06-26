@@ -13,10 +13,10 @@
     if (index < text.length) {
       title += text.charAt(index);
       index++;
-      requestAnimationFrame(typeEffect);
+      requestAnimationFrame(() => setTimeout(typeEffect, 50)); // Divide la tarea en partes más pequeñas
     } else {
       isTitleComplete = true;
-      requestIdleCallback(() => requestAnimationFrame(typeEffect2), { timeout: 500 });
+      setTimeout(() => requestAnimationFrame(typeEffect2), 500); // Espera 500ms antes de iniciar el segundo efecto de escritura
     }
   }
 
@@ -24,7 +24,7 @@
     if (index2 < text2.length) {
       subtitle += text2.charAt(index2);
       index2++;
-      requestAnimationFrame(typeEffect2);
+      requestAnimationFrame(() => setTimeout(typeEffect2, 50)); // Divide la tarea en partes más pequeñas
     }
   }
 

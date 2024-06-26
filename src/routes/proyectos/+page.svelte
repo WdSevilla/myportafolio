@@ -12,7 +12,7 @@
 		<Burger />
 	</div>
 </div>
-<div class=" bg-color2 pt-12 lg:h-screen h-screen">
+<div class=" bg-color2 pt-12 lg:h-screen h-auto">
 	<div class="lg:grid lg:grid-rows-1 lg:mt-2 flex flex-col ">
 		<h2 class="text-white text-center text-4xl font-semibold pb-8 mt-4">Works</h2>
 		<div class="lg:grid lg:grid-cols-2 lg:gap-20
