@@ -9,7 +9,7 @@
 </div>
 <div class=" lg:h-screen bg-color2 pt-12 h-screen">
 	<div class="grid grid-rows-1 mt-2">
-		<h2 class="text-white text-center text-4xl font-semibold pb-8">Technologies</h2>
+		<h2 class="text-white text-center text-4xl font-semibold pb-8">Tecnologías</h2>
 		<div class="mx-auto">
 			<div class="sm:grid sm:grid-cols-2 sm:grid-rows-1 sm:gap-14">
 				<div>
@@ -52,7 +52,7 @@
 		</div>
 		<hr class="divide-y divide-solid color-white" />
 		<div>
-			<h2 class="text-white text-center text-4xl font-semibold pb-8 mt-4">Others Technologies</h2>
+			<h2 class="text-white text-center text-4xl font-semibold pb-8 mt-4">Otras Tecnologías</h2>
 			<img class="flex mx-auto mb-2" src="https://i.ibb.co/DVpc6XJ/IMG-DB-AZURE.png" alt="" />
 		</div>
 	</div>

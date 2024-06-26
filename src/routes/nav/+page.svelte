@@ -36,13 +36,13 @@
 			<div class="pb-48  ">
 				<div class="flex flex-col space-y-2 text-white text-lg p-2 ">
 					<nav>
-					<a href="/">Home</a>
+					<a href="/">Inicio</a>
 					<hr class="divide-y divide-blue-200" />
-					<a href="about">About</a>
+					<a href="about">Sobre mí</a>
 					<hr class="divide-y divide-blue-200" />
-					<a href="tecnologias">Technlogies</a>
+					<a href="tecnologias">Tecnologías</a>
 					<hr class="divide-y divide-blue-200" />
-					<a href="proyectos">Works</a>
+					<a href="proyectos">Trabajos</a>
 				</nav>
 				</div>
 			</div>
