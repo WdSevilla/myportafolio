@@ -3,7 +3,7 @@
 
   let title = '';
   let subtitle = '';
-  const text = 'Bienvenido a mi portafol';
+  const text = 'Bienvenido a mi portafolio';
   const text2 = 'Soy desarrollador web';
   let index = 0;
   let index2 = 0;
