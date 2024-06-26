@@ -13,10 +13,10 @@
     if (index < text.length) {
       title += text.charAt(index);
       index++;
-      setTimeout(typeEffect, 100); // Ajusta el tiempo para cambiar la velocidad de la escritura
+      requestAnimationFrame(typeEffect);
     } else {
       isTitleComplete = true;
-      setTimeout(typeEffect2, 500); // Espera 500ms antes de iniciar el segundo efecto de escritura
+      setTimeout(() => requestAnimationFrame(typeEffect2), 500); 
     }
   }
 
@@ -24,12 +24,12 @@
     if (index2 < text2.length) {
       subtitle += text2.charAt(index2);
       index2++;
-      setTimeout(typeEffect2, 50); // Ajusta el tiempo para cambiar la velocidad de la escritura
+      requestAnimationFrame(typeEffect2);
     }
   }
 
   onMount(() => {
-    typeEffect();
+    requestAnimationFrame(typeEffect);
   });
 </script>
 
@@ -70,6 +70,12 @@
     }
     50.01%, 100% {
       opacity: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #typing-title, #typing-subtitle {
+      font-size: 1.5em;
     }
   }
 </style>
