@@ -3,7 +3,7 @@
 
   let title = '';
   let subtitle = '';
-  const text = 'Bienvenido a mi portafolio';
+  const text = 'Bienvenido a mi portafol';
   const text2 = 'Soy desarrollador web';
   let index = 0;
   let index2 = 0;
@@ -13,10 +13,10 @@
     if (index < text.length) {
       title += text.charAt(index);
       index++;
-      requestAnimationFrame(() => setTimeout(typeEffect, 50)); // Divide la tarea en partes más pequeñas
+      setTimeout(typeEffect, 100); // Ajusta el tiempo para cambiar la velocidad de la escritura
     } else {
       isTitleComplete = true;
-      setTimeout(() => requestAnimationFrame(typeEffect2), 500); // Espera 500ms antes de iniciar el segundo efecto de escritura
+      setTimeout(typeEffect2, 500); // Espera 500ms antes de iniciar el segundo efecto de escritura
     }
   }
 
@@ -24,12 +24,12 @@
     if (index2 < text2.length) {
       subtitle += text2.charAt(index2);
       index2++;
-      requestAnimationFrame(() => setTimeout(typeEffect2, 50)); // Divide la tarea en partes más pequeñas
+      setTimeout(typeEffect2, 50); // Ajusta el tiempo para cambiar la velocidad de la escritura
     }
   }
 
   onMount(() => {
-    requestAnimationFrame(typeEffect);
+    typeEffect();
   });
 </script>
 
@@ -70,12 +70,6 @@
     }
     50.01%, 100% {
       opacity: 0;
-    }
-  }
-
-  @media (max-width: 768px) {
-    #typing-title, #typing-subtitle {
-      font-size: 1.5em;
     }
   }
 </style>
